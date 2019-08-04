@@ -12,8 +12,13 @@
 Follow these instructions and your website will be up and running with CSS Extended within no time!
 
 <h3>Installation</h3>
-For installation, read our Wiki Page on Github:
-<a href="https://github.com/css-extended/CSS-Extended/wiki/Get-Started">https://github.com/css-extended/CSS-Extended/wiki/Get-Started</a>
+To download CSS Extended, use our personal Content Delivery Network (CDN).
+Simply add this to your project files:
+
+```html
+<link rel="stylesheet" href="https://cdn.cssextended.com/1.0.0/cssextended_v_1.0.0.css" integrity="sha384-bw8RfVLB7O5bjuhpyl7hBxMOb6KiJwEw+zhla9D9T9gh9AVHw7Q1B8KHgB7qBFyu" crossorigin="anonymous">
+<script src="https://cssextended.com/cdn/1.0.0/cssextended_v_1.0.0.js" integrity="sha384-Ai8e7VybdEKiAHwu8xHKUjniDpFMNyEKTgwRRpPS+6WEstb9wqqkiFgqUrfzc9hi" crossorigin="anonymous"></script>
+```
 
 <h3>Built With</h3>
 <li><a href="https://sass-lang.com/">SASS</a></li>
