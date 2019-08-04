@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/functions.js"></script>
+    <title>CSS Extended</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar-light">
+        <span class="navbar-title">Navbar</span>
+        <button type="button" class="collapse-button" onclick="openCollapsedNav()"><i class="nav-icon-black"></i></button>
+        <ul>
+            <div class="collapsed-nav" id="collapsed-nav">
+              <li class="nav-object"><a href="#">Home</a></li>
+              <li class="nav-object"><a href="#">Item</a></li>
+              <li class="dropdown nav-object" onclick="dropdownContentShow()">Dropdown <i class="dropdown-arrow-down"></i>
+                  <div class="dropdown-content" id="dropdown">
+                     <a href="#">Dropdown</a>
+                     <a href="#">Dropdown</a>
+                     <div class="dropdown-line"></div>
+                     <a href="#">Dropdown</a>
+                    </div>
+                </li> 
+                <li class="nav-object"><a href="#">Item</a></li>
+                </div>
+            </ul>
+    </nav>
+
+    <!-- Text Sizes -->
+    <h1>h1</h1>
+    <h2>h2</h2>
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+
+    <!-- Alerts -->
+    <div class="alert--normal">
+      This is a normal alert!
+    </div>
+
+    <div class="alert--warning">
+     This a warning alert!
+    </div>
+
+    <div class="alert--success">
+     This is a success alert!
+    </div>
+
+    <div class="alert--info">
+     This is a info alert!
+    </div>
+       
+    <div class="alert--grey">
+     This is a grey alert!
+    </div>
+
+    <div class="alert--dark">
+     This is a dark alert!
+    </div>
+
+    <!-- Grid System -->
+    <div class="row text-black">
+        <div class="col-sm-5 bg-green">col-sm-5</div>
+        <div class="col-sm-3 bg-red">col-sm-3</div>
+        <div class="col-sm-4 bg-orange">col-sm-4</div>
+    </div>
+    
+    <!-- Buttons -->
+    <button type="button" class="button--blue">Blue Button</button>
+    <button type="button" class="button--red">Red Button</button>
+    <button type="button" class="button--green">Green Button</button>
+    <button type="button" class="button--yellow">Yellow Button</button>
+    <button type="button" class="button--grey">Grey Button</button>
+    <button type="button" class="button--black">Black Button</button>
+
+    <!-- Buttons Outline -->
+    <button type="button" class="button--blue--outline">Blue Button</button>
+    <button type="button" class="button--red--outline">Red Button</button>
+    <button type="button" class="button--green--outline">Green Button</button>
+    <button type="button" class="button--yellow--outline">Yellow Button</button>
+    <button type="button" class="button--grey--outline">Grey Button</button>
+    <button type="button" class="button--black--outline">Black Button</button>
+
+    <!-- Inputs & Form -->
+    <label for="exampleInput">Test Input</label>
+    <div class="form-control-group">
+        <span class="input-before-group">https://github.com/</span>
+        <input type="text" id="exampleInput" class="csse-form" placeholder="css-e" />
+        
+        <span class="input-after-group">/issues</span>
+    </div>
+
+    <label for="exampleTextarea">Test Textarea</label>
+    <div class="form-control-group">
+        <span class="textarea-before-group">Hello there my name is</span>
+        <textarea type="text" id="exampleTextarea" class="csse-form" placeholder="Test Textarea"></textarea>
+    </div>
+    
+    <label for="exampleSelect">Test Select</label>
+    <div class="form-control-group">
+        <select multiple id="exampleSelect" class="csse-form">
+        <option>Option1</option>
+        <option>Option2</option>
+        <option>Option3</option>
+        <option>Option4</option>
+        <option>Option5</option>
+        <option>Option6</option>
+        <option>Option7</option>
+        <option>Option8</option>
+        <option>Option9</option>
+        <option>Option10</option>
+        </select>
+    </div>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-object"><a href="#">Home</a></li>
+            <li class="breadcrumb-object"><a href="#">CSS Extended</a></li>
+            <li class="breadcrumb-object active"><a href="#">Download</a></li>
+        </ul>
+    </nav>
+
+    <!-- List Groups -->
+    <ul class="list-light">
+        <li class="list-object-action">Test</li>
+        <li class="list-object-action">Test</li>
+        <li class="list-object-action active">Test</li>
+    </ul>
+
+</body>
+</html>
