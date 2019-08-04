@@ -1,0 +1,80 @@
+/* Lists */
+$border-color: (
+   light: rgb(199, 199, 199),
+   dark: rgb(15, 15, 15)
+);
+$border-radius: 5px;
+
+ul.list-light {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    font-size: 1rem;
+    padding-left: 0;
+    color: rgb(43, 43, 43);
+    background-color: #fff;
+
+    .active {
+        background-color: rgb(228, 228, 228) !important;
+        cursor: auto !important;
+    }
+
+    li.list-object {
+        border: 1px solid map-get($border-color, light);
+        display: block;
+        padding: 1rem;
+        margin-bottom: -1px;
+
+
+        &:last-child {
+            border-bottom-right-radius: $border-radius;
+            border-bottom-left-radius: $border-radius;
+        }
+
+        &:first-child {
+            border-top-right-radius: $border-radius;
+            border-top-left-radius: $border-radius;
+        }
+    }
+
+    li.list-object-action {
+        @extend .list-object;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(241, 240, 240);
+        }
+    }
+}
+
+ul.list-dark {
+    @extend .list-light;
+    color: #fff;
+    background-color: rgb(22, 22, 22);
+    border-radius: $border-radius;
+
+    .active {
+        background-color: rgb(10, 10, 10) !important;
+        cursor: auto !important;
+    }
+
+    li.list-object {
+        border: 1px solid map-get($border-color, dark);
+
+        &:last-child {
+            border-bottom-right-radius: $border-radius;
+            border-bottom-left-radius: $border-radius;
+        }
+
+        &:first-child {
+            border-top-right-radius: $border-radius;
+            border-top-left-radius: $border-radius;
+        }
+    }
+
+    li.list-object-action {
+        &:hover {
+            background-color: rgb(10, 10, 10);
+        }
+    }
+}

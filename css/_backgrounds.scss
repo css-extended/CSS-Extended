@@ -1,0 +1,48 @@
+/* Background Colors */
+.bg-white {
+    background-color: map-get($colors, white) !important;
+}
+
+.bg-yellow {
+    background-color: map-get($colors, yellow) !important;
+}
+
+.bg-orange {
+    background-color: map-get($colors, orange) !important;
+}
+
+.bg-red {
+    background-color: map-get($colors, red) !important;
+}
+
+.bg-magenta {
+    background-color: map-get($colors, magenta) !important;
+}
+
+.bg-purple {
+    background-color: map-get($colors, purple) !important;
+}
+
+.bg-cyan {
+    background-color: map-get($colors, cyan) !important;
+}
+
+.bg-green {
+    background-color: map-get($colors, green) !important;
+}
+
+.bg-darkgreen {
+    background-color: map-get($colors, darkgreen) !important;
+}
+
+.bg-brown {
+    background-color: map-get($colors, brown) !important;
+}
+
+.bg-grey {
+    background-color: map-get($colors, grey) !important;
+}
+
+.bg-black {
+    background-color: map-get($colors, black) !important;
+}

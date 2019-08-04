@@ -1,0 +1,172 @@
+/* Buttons */
+.button {
+    display: block !important;
+    padding: 1em;
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    margin-bottom: $margin-b;
+
+    &--blue {
+        @extend .button;
+        background-color: map-get($colors, blue);
+        color: map-get($colors, white);
+        transition: 0.5s;
+
+        &:hover {
+            background-color:rgb(85, 85, 202);
+        }
+
+        &--outline {
+            @extend .button;
+            background-color: transparent !important;
+            border: 2px solid map-get($colors, blue) !important;
+            color: map-get($colors, blue);
+            transition: 0.5s;
+            font-weight: 600;
+
+            &:hover {
+                background-color: rgb(85, 85, 202) !important;
+                color: map-get($colors, white);
+                font-weight: normal;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &--red {
+        @extend .button;
+        background-color: map-get($colors, red);
+        color: map-get($colors, white);
+        transition: 0.5s;
+
+        &:hover {
+            background-color: rgb(184, 71, 71);
+        }
+
+        &--outline {
+            @extend .button;
+            background-color: transparent !important;
+            border: 2px solid map-get($colors, red) !important;
+            color: map-get($colors, red);
+            transition: 0.5s;
+            font-weight: 600;
+
+            &:hover {
+                background-color: rgb(184, 71, 71) !important;
+                color: map-get($colors, white);
+                font-weight: normal;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &--green {
+        @extend .button;
+        background-color: map-get($colors, green);
+        color: map-get($colors, white);
+        transition: 0.5s;
+
+        &:hover {
+            background-color: rgb(35, 151, 35); 
+        }
+
+        &--outline {
+            @extend .button;
+            background-color: transparent !important;
+            border: 2px solid map-get($colors, green) !important;
+            color: map-get($colors, green);
+            transition: 0.5s;
+            font-weight: 600;
+
+            &:hover {
+                background-color: rgb(35, 151, 35) !important;
+                color: map-get($colors, white);
+                font-weight: normal;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &--yellow {
+        @extend .button;
+        background-color: map-get($colors, yellow);
+        color: map-get($colors, white);
+        transition: 0.5s;
+
+        &:hover {
+            background-color: rgb(167, 167, 36);
+        }
+
+        &--outline {
+            @extend .button;
+            background-color: transparent !important;
+            border: 2px solid map-get($colors, yellow) !important;
+            color: map-get($colors, yellow);
+            transition: 0.5s;
+            font-weight: 600;
+
+            &:hover {
+                background-color: rgb(167, 167, 36) !important;
+                color: map-get($colors, white);
+                font-weight: normal;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &--grey {
+        @extend .button;
+        background-color: map-get($colors, grey);
+        color: map-get($colors, white);
+        transition: 0.5s;
+
+        &:hover {
+            background-color: rgb(94, 94, 94);
+        }
+
+        &--outline {
+            @extend .button;
+            background-color: transparent !important;
+            border: 2px solid map-get($colors, grey) !important;
+            color: map-get($colors, grey);
+            transition: 0.5s;
+            font-weight: 600;
+
+            &:hover {
+               background-color: rgb(94, 94, 94) !important;
+               color: map-get($colors, white);
+               font-weight: normal;
+               font-weight: 600;
+            }
+        }
+    }
+
+    &--black {
+        @extend .button;
+        background-color: map-get($colors, black);
+        color: map-get($colors, white);
+        transition: 0.5s;
+
+        &:hover {
+            background-color: rgb(29, 29, 29);
+        }
+
+        &--outline {
+            @extend .button;
+            background-color: transparent !important;
+            border: 2px solid map-get($colors, black) !important;
+            color: map-get($colors, black);
+            transition: 0.5s;
+            font-weight: 600;
+
+            &:hover {
+                background-color: rgb(29, 29, 29) !important;
+                color: map-get($colors, white);
+                font-weight: normal;
+                font-weight: 600;
+            }
+        }
+    }
+}

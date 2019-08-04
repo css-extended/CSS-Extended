@@ -1,0 +1,78 @@
+/* Inputs & Form */
+.form-control-group {
+    display: flex;
+    flex-direction: wrap;
+}
+
+.input-before-group {
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.48rem;
+    border: 1px solid rgb(180, 180, 180);
+    white-space: nowrap;
+    height: 26px;
+    border-right: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-after-group {
+    @extend .input-before-group;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left: none;
+    border-right: 1px solid rgb(180, 180, 180);
+}
+
+.textarea-before-group {
+    @extend .input-before-group;
+    height: 38px;
+    padding: 0.51rem;
+}
+
+.textarea-after-group {
+    @extend .input-after-group;
+    height: 38px;
+    padding: 0.51rem;
+}
+
+.csse-form {
+    display: inline-block;
+    width: 100%;
+    padding: 0.7em;
+    border-radius: 3px;
+    border: 1px solid rgb(180, 180, 180);
+    font-family: $font;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: all 0.30s ease-in-out;
+    color: #33373b;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+
+.csse-form:focus {
+    box-shadow: 0 0 10px rgb(193, 193, 243);
+    border: 1px solid rgb(193, 193, 243);
+}
+
+select {
+    word-wrap: normal;
+}
+
+option {
+    display: block;
+    padding-bottom: 2px;
+}
+
+label {
+    padding-bottom: 0.5rem;
+    display: inline-block;
+    font-size: 17px;
+}

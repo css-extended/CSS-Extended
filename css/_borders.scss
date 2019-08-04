@@ -1,0 +1,52 @@
+/* Borders */
+.border {
+    border: 1px solid transparent;
+
+    &--white {
+        border-color: map-get($colors, white) !important;
+    }
+
+    &--yellow {
+        border-color: map-get($colors, yellow) !important;
+    }
+
+    &--orange {
+        border-color: map-get($colors, orange) !important;
+    }
+
+    &--red {
+        border-color: map-get($colors, red) !important;
+    }
+
+    &--magenta {
+        border-color: map-get($colors, magenta) !important;
+    }
+
+    &--purple {
+        border-color: map-get($colors, purple) !important;
+    }
+
+    &--cyan {
+        border-color: map-get($colors, cyan) !important;
+    }
+
+    &--green {
+        border-color: map-get($colors, green) !important;
+    }
+
+    &--darkgreen {
+        border-color: map-get($colors, darkgreen) !important;
+    }
+
+    &--brown {
+        border-color: map-get($colors, brown) !important;
+    }
+
+    &--grey {
+        border-color: map-get($colors, grey) !important;
+    }
+
+    &--black {
+        border-color: map-get($colors, black) !important;
+    }
+}

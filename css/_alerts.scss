@@ -1,0 +1,51 @@
+/* Alerts */
+.alert {
+    position: relative;
+    border: 1px solid transparent;
+    padding: 0.9rem;
+    margin-bottom: $margin-b;
+    padding-left: 10px;
+    border-radius: 5px;
+
+    &--normal {
+        @extend .alert;
+        background-color: map-get($alert-colors, normal);
+        color: #004396;
+    }
+
+    &--warning {
+        @extend .alert;
+        background-color: map-get($alert-colors, warning);
+        color: #b10f00;
+    }
+
+    &--success {
+        @extend .alert;
+        background-color: map-get($alert-colors, success);
+        color: #007730;
+    }
+
+    &--info {
+        @extend .alert;
+        background-color: map-get($alert-colors, info);
+        color: #a87600;
+    }
+
+    &--grey {
+        @extend .alert;
+        background-color: map-get($alert-colors, grey);
+        color: #3d3d3d;
+    }
+
+    &--dark {
+        @extend .alert;
+        background-color: map-get($alert-colors, dark);
+        color: map-get($colors, white);
+    }
+}
+
+.alert-title {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,48 @@
+/* Text Colors */
+.text-white {
+    color: map-get($colors, white) !important;
+}
+
+.text-yellow {
+    color: map-get($colors, yellow) !important;
+}
+
+.text-orange {
+    color: map-get($colors, orange) !important;
+}
+
+.text-red {
+    color: map-get($colors, red) !important;
+}
+
+.text-magenta {
+    color: map-get($colors, magenta) !important;
+}
+
+.text-purple {
+    color: map-get($colors, purple) !important;
+}
+
+.text-cyan {
+    color: map-get($colors, cyan) !important;
+}
+
+.text-green {
+    color: map-get($colors, green) !important;
+}
+
+.text-darkgreen {
+    color: map-get($colors, darkgreen) !important;
+}
+
+.text-brown {
+    color: map-get($colors, brown) !important;
+}
+
+.text-grey {
+    color: map-get($colors, grey) !important;
+}
+
+.text-black {
+    color: map-get($colors, black) !important;
+}
